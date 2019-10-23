@@ -1,0 +1,49 @@
+
+* {
+	box-sizing: border-box;
+	color: #404040;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	background-color: #f2f2f2;
+	text-decoration: none;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: .5em;
+	padding: .5em;
+	text-align: center
+}
+
+a,
+li,
+ul {
+	text-decoration: none;
+	list-style: none;
+	font-size: 1em;
+	margin: 5px;
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+
+
+/* ------------Border styles ------------ */
+hr.new1 {
+  border: 10px solid black;
+  weight: bold;
+}
+
+hr.new2 {
+  border: 1px solid black;
+}
+
+/*---------Code----------*/
