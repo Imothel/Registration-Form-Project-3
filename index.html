@@ -31,11 +31,11 @@
   <label for="address">Street Address</label>
   <input type="text" id="address" name="street_address"><br>
   <label for="city">City</label>
-  <input type="text" id="city" name="city"><br>
+  <input  type="text" id="city" name="city"><br>
   <label for="state">State</label>
 
   <select id="states" name="states">
-    <option value="state">Choose a State</option>
+    <option value="" disabled selected>Choose State</option>
     <option value="state">Alabama</option>
     <option value="state">Alaska</option>
     <option value="state">Arizona</option>
@@ -93,7 +93,8 @@
 
 <hr class="new2">
 
-
+<div class="container">
+  <div class="holder">
 
   <h2>Newsletter</h2>
   <p>Select the Newsletter you would like to receive</p>
@@ -102,21 +103,22 @@
     <input type="checkbox" id="cssnews" value="subscribe"><label for="newsletter">CSS News</label><br>
     <input type="checkbox" id="javascriptnews" value="subscribe"><label for="newsletter">Javascript News</label>
 
-
-
   <p>Newsletter Format</p>
     <input type="radio" id="HTML" value="html" name="format"><label for="html">HTML</label><br>
     <input type="radio" id="plaintext" value="plaintext" name="format"><label for="plaintext">Plain text</label><br>
 
+  </form>
+
+  </div>
+</div>
 
 <p> Other topics you'd like to hear about</p>
-
 <textarea id="topics" name="topics"></textarea><br>
 
 <button type="submit">Sign Up</button>
 
 <p>Copyright The Code Review</p>
-</form>
+
 
 
 
